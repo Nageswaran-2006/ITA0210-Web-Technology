@@ -1,0 +1,12 @@
+.gif-box {
+    width: 300px;
+    height: 200px;
+    background-image: url("background.gif");
+    background-size: cover;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.gif-box:hover {
+    opacity: 1;
+}

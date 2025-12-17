@@ -1,0 +1,18 @@
+body {
+    font-family: Arial;
+}
+
+form {
+    width: 350px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input, textarea, select {
+    width: 180px;
+}
