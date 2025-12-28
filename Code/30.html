@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Employee Registration</h2>
+
+Name: <input type="text" id="ename"><br><br>
+ID: <input type="text" id="eid"><br><br>
+Department: <input type="text" id="edept"><br><br>
+
+<button onclick="show()">Register</button>
+
+<p id="out"></p>
+
+<script>
+function show() {
+    document.getElementById("out").innerHTML =
+        "<b>Employee Details</b><br>" +
+        "Name: " + ename.value + "<br>" +
+        "ID: " + eid.value + "<br>" +
+        "Department: " + edept.value;
+}
+</script>
+
+</body>
+</html>

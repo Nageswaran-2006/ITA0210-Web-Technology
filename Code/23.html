@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Hotel Menu</h2>
+
+Dish 1: <input type="text" id="d1"><br><br>
+Dish 2: <input type="text" id="d2"><br><br>
+Dish 3: <input type="text" id="d3"><br><br>
+
+<button onclick="showDishes()">Confirm</button>
+
+<p id="output"></p>
+
+<script>
+function showDishes() {
+    document.getElementById("output").innerHTML =
+        "<b>Confirmed Dishes:</b><br>" +
+        document.getElementById("d1").value + "<br>" +
+        document.getElementById("d2").value + "<br>" +
+        document.getElementById("d3").value;
+}
+</script>
+
+</body>
+</html>

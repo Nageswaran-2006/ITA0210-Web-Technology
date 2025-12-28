@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String Object</title>
+</head>
+<body>
+
+<h2>String Object Operations</h2>
+
+<script>
+    var str1 = "Hello";
+    var str2 = "World";
+
+    // 1. Return character at specified location
+    document.write("Character at index 1: " + str1.charAt(1) + "<br>");
+
+    // 2. Return unicode of character at specified index
+    document.write("Unicode at index 1: " + str1.charCodeAt(1) + "<br>");
+
+    // 3. Join two strings
+    document.write("Joined String: " + str1.concat(" ", str2) + "<br>");
+
+    // 4. Convert unicode value to string
+    document.write("Unicode to String: " + String.fromCharCode(72) + "<br>");
+
+    // 5. Convert string to uppercase
+    document.write("Uppercase String: " + str1.toUpperCase());
+</script>
+
+</body>
+</html>

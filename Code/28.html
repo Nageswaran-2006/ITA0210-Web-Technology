@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Student Registration</h2>
+
+Name: <input type="text" id="name"><br><br>
+Roll No: <input type="text" id="roll"><br><br>
+Department: <input type="text" id="dept"><br><br>
+
+<button onclick="display()">Submit</button>
+
+<p id="result"></p>
+
+<script>
+function display() {
+    var name = document.getElementById("name").value;
+    var roll = document.getElementById("roll").value;
+    var dept = document.getElementById("dept").value;
+
+    document.getElementById("result").innerHTML =
+        "<b>Student Details</b><br>" +
+        "Name: " + name + "<br>" +
+        "Roll No: " + roll + "<br>" +
+        "Department: " + dept;
+}
+</script>
+
+</body>
+</html>
